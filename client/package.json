@@ -1,0 +1,41 @@
+{
+  "name": "angular-quickstart-with-cekogha",
+  "version": "1.0.0",
+  "license": "ISC",
+  "scripts": {
+    "start": "tsc && concurrently \"tsc -w\" \"lite-server\" ",
+    "lite": "lite-server",
+    "postinstall": "typings install",
+    "tsc": "tsc",
+    "tsc:w": "tsc -w",
+    "typings": "typings"
+  },
+  "dependencies": {
+    "@angular/animations": "~6.0.6",
+    "@angular/common": "~6.0.6",
+    "@angular/compiler": "~6.0.6",
+    "@angular/core": "~6.0.6",
+    "@angular/forms": "~6.0.6",
+    "@angular/http": "~6.0.6",
+    "@angular/platform-browser": "~6.0.6",
+    "@angular/platform-browser-dynamic": "~6.0.6",
+    "@angular/router": "~6.0.6",
+    "@angular/upgrade": "~6.0.6",
+    "angular-in-memory-web-api": "~0.6.0",
+    "bootstrap": "^3.3.7",
+    "core-js": "2.5.7",
+    "jasmine-marbles": "^0.3.1",
+    "reflect-metadata": "^0.1.8",
+    "rxjs": "^6.0.0-rc.0",
+    "rxjs-compat": "^6.2.1",
+    "systemjs": "0.19.39",
+    "web-animations-js": "~2.3.1",
+    "zone.js": "^0.8.26"
+  },
+  "devDependencies": {
+    "concurrently": "^3.0.0",
+    "lite-server": "^2.3.0",
+    "typescript": "^2.9.2",
+    "typings": "2.1.1"
+  }
+}
